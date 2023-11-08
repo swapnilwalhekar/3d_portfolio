@@ -4,7 +4,8 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
-const Navbar = () => {
+const 
+Navbar = () => {
   const [active, setActive] = useState("");  // active title when click on the navbars
   const [toggle, setToggle] = useState(false);
 
