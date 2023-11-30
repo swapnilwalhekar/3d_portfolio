@@ -18,7 +18,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputerCanvas/>
+
+    <ComputerCanvas/>
     </section>
   )
 }
