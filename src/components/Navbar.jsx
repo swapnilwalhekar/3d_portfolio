@@ -25,7 +25,7 @@ Navbar = () => {
             }}
           >
             <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-            <p className="text-white text-[18px] font-bold cursor-pointer">Swapnil | <span className="sm:block hidden">Front-End Developer</span></p>
+            <p className="text-white text-[20px] font-bold cursor-pointer">Swapnil | Web Developer</p>
           </Link>
 
           <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -75,7 +75,6 @@ Navbar = () => {
               </ul>
             </div>
           </div>
-
         </div>
       </nav>
     </>
