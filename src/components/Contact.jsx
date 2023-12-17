@@ -27,10 +27,15 @@ const Contact = () => {
 
     setLoading(true);
 
+    // EmailJs account confidentials
+    const serviceId = "service_fhjvtj3";
+    const templateId = "template_mtylm8w";
+    const publicKey = "7xm2Lp8D_TFDL9_iL";
+
     emailjs
       .send(
-        "seviceId",
-        "templateId",
+        serviceId,
+        templateId,
         {
           from_name: form.name,
           to_name: "Swapnil",
@@ -38,7 +43,7 @@ const Contact = () => {
           to_email: "walhekar.swapnil2018@gmail.com",
           message: form.messege,
         },
-        "publicKey"
+        publicKey
       )
       .then(
         () => {
