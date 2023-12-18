@@ -38,13 +38,11 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores amet
-        nam sit, doloribus iure id sint ipsa eos minus omnis quas unde nesciunt,
-        odio architecto consectetur asperiores maxime eligendi? Et. Eveniet
-        nostrum perspiciatis optio vero? Ipsa beatae alias voluptatem delectus
-        eligendi praesentium ab mollitia veritatis minima vitae et quidem
-        adipisci at aliquam excepturi dolores perspiciatis blanditiis, expedita
-        cupiditate, unde doloremque.
+          2+ year of experience in front-end web-development with hands-on
+          experience in identifying web-based user interactions along with
+          designing and implementing highly-responsive user interface components.
+          Proficient in translating designs and wireframes into high- quality code,
+          and writing application interface code via JavaScript and React JS workflows.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
