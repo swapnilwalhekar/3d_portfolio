@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  trinesis,
   tesla,
   shopify,
   carrent,
@@ -42,20 +42,36 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Javascript",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React JS",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Redux",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "React Three Fiber",
     icon: creator,
+  },
+  {
+    title: "HTML",
+    icon: backend,
+  },
+  {
+    title: "CSS",
+    icon: creator,
+  },
+  {
+    title: "Java",
+    icon: web,
+  },
+  {
+    title: "SQL",
+    icon: mobile,
   },
 ];
 
@@ -115,58 +131,93 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: "Software Engineer",
+  //   company_name: "Trinesis Technologies Pvt. Ltd.",
+  //   icon: trinesis,
+  //   iconBg: "#E6DEDD",
+  //   date: "June 2022 - Feb 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Front End Developer",
+  //   company_name: "Crescendo Worldwide Pvt. Ltd.",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "April 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Frontend Web Developer",
+    company_name: "Freelance",
+    icon: trinesis,
+    iconBg: "#E6DEDD",
+    date: "March 2022 - Feb 2023",
+    pointTitle: [
+      "Project Collaboration",
+      "Responsive Design",
+      "Cross-Browser Compatibility",
+      "Technological Expertise",
+      "Client Communication",
+    ],
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with diverse clients to understand their unique business requirements and translate them into interactive and responsive web applications.",
+
+      "Ensured optimal user experiences by implementing responsive design principles, making websites accessible across various devices and screen sizes.",
+
+      "Ensured cross-browser compatibility to guarantee a seamless user experience across different browsers, maintaining a consistent and polished look.",
+
+      "Leveraged my expertise in HTML, CSS, and JavaScript to develop and implement user interfaces that not only met but exceeded client expectations.",
+
+      "Maintained clear and effective communication with clients throughout the development process, providing regular updates and incorporating feedback to ensure alignment with project goals.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Frontend Developer",
+    company_name: "Crescendo Worldwide Pvt. Ltd.",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2023 - Feb 2024",
+    pointTitle: [
+      "Collaborative UI Development",
+      "Reusable Component Development",
+      "State Management Expertise",
+      "MERN Stack Application Development",
+      "Responsive Web Design Implementation",
+      "Feature Development and Enhancement",
+      "Collaboration with UX/UI Design",
+      "MERN Stack Integration and Communication",
+    ],
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborating with the development team to create captivating user interfaces using ReactJS, HTML, CSS, and JavaScript.",
+
+      "Developing reusable and modular components to enhance the overall efficiency and maintainability of the codebase.",
+
+      "Utilizing React Hooks and Redux for state management, resulting in a seamless user experience.",
+
+      "Harnessing the power of the MERN Stack to build robust and scalable applications, leveraging MongoDB for flexible data storage, Express.js for streamlined server-side development, ReactJS for dynamic and interactive user interfaces, and Node.js for high-performance server-side execution.",
+
+      "Implementing responsive web designs, ensuring optimal performance across various devices and screen sizes.",
+
+      "Contributing to the development of new features and improvements in line with project requirements and deadlines.",
+
+      "Working closely with UX/UI designers to transform wireframes and mockups into functional web interfaces.",
+
+      "Implementing end-to-end solutions in the MERN Stack, ensuring seamless integration and communication between frontend and backend components for a unified and efficient application architecture.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [

@@ -33,12 +33,12 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.heroSubText}> Introduction </p>
+        <p className={styles.sectionSubText}> Introduction </p>
         <h2 className={styles.heroHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}>
-          2+ year of experience in front-end web-development with hands-on
+          2 year of experience in front-end web-development with hands-on
           experience in identifying web-based user interactions along with
           designing and implementing highly-responsive user interface components.
           Proficient in translating designs and wireframes into high- quality code,
