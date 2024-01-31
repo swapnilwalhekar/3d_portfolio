@@ -32,17 +32,21 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}> Introduction </p>
-        <h2 className={styles.heroHeadText}>Overview</h2>
+      <motion.div
+        variants={textVariant()}
+        className="flex justify-center flex-col items-center"
+      >
+        <p className={styles.sectionSubText}> MY </p>
+        <h2 className={styles.heroHeadText}>Tech Stack</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)}>
-          2 year of experience in front-end web-development with hands-on
-          experience in identifying web-based user interactions along with
-          designing and implementing highly-responsive user interface components.
-          Proficient in translating designs and wireframes into high- quality code,
-          and writing application interface code via JavaScript and React JS workflows.
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className="">
+        <span className="ml-10">2 year of experience in</span> frontend web
+        development with hands-on experience in identifying web-based user
+        interactions along with designing and implementing highly-responsive
+        user interface components. Proficient in translating designs and
+        wireframes into high- quality code, and writing application interface
+        code via JavaScript and React JS workflows.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

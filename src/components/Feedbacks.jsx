@@ -50,7 +50,10 @@ const Feedbacks = () => {
       <div
         className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
       >
-        <motion.div variants={textVariant()}>
+        <motion.div
+          variants={textVariant()}
+          className="flex justify-center flex-col items-center"
+        >
           <p className={styles.heroSubText}>Whats other says</p>
           <h2 className={styles.heroHeadText}>metaverse</h2>
         </motion.div>

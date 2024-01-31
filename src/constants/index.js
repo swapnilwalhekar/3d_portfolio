@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -13,16 +12,14 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
   trinesis,
-  tesla,
-  shopify,
+  crescendo,
   carrent,
   jobit,
   tripguide,
   threejs,
+  java,
+  sql,
 } from "../assets";
 
 export const navLinks = [
@@ -89,20 +86,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
     name: "Redux Toolkit",
     icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -113,57 +102,34 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
-  // {
-  //   title: "Software Engineer",
-  //   company_name: "Trinesis Technologies Pvt. Ltd.",
-  //   icon: trinesis,
-  //   iconBg: "#E6DEDD",
-  //   date: "June 2022 - Feb 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Front End Developer",
-  //   company_name: "Crescendo Worldwide Pvt. Ltd.",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "April 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-
   {
     title: "Frontend Web Developer",
-    company_name: "Freelance",
+    company_name: "Trinesis Technologies Pvt. Ltd.",
     icon: trinesis,
     iconBg: "#E6DEDD",
-    date: "March 2022 - Feb 2023",
+    date: "June 2022 - Feb 2023",
     pointTitle: [
       "Project Collaboration",
       "Responsive Design",
@@ -186,7 +152,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Crescendo Worldwide Pvt. Ltd.",
-    icon: tesla,
+    icon: crescendo,
     iconBg: "#E6DEDD",
     date: "Feb 2023 - Feb 2024",
     pointTitle: [
@@ -217,7 +183,6 @@ const experiences = [
       "Implementing end-to-end solutions in the MERN Stack, ensuring seamless integration and communication between frontend and backend components for a unified and efficient application architecture.",
     ],
   },
-  
 ];
 
 const testimonials = [

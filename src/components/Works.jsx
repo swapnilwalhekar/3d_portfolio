@@ -16,7 +16,6 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
-  
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -49,15 +48,14 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
-          {
-            tags.map((tag,index)=>{
-              return(
-                <p key={index} className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
-              )
-            })
-          }
+          {tags.map((tag, index) => {
+            return (
+              <p key={index} className={`text-[14px] ${tag.color}`}>
+                #{tag.name}
+              </p>
+            );
+          })}
         </div>
-
       </Tilt>
     </motion.div>
   );
@@ -66,7 +64,10 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div
+        variants={textVariant()}
+        className="flex justify-center flex-col items-center"
+      >
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
