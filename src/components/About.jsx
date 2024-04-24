@@ -41,12 +41,16 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="">
-        <span className="ml-10">2 year of experience in</span> frontend web
-        development with hands-on experience in identifying web-based user
-        interactions along with designing and implementing highly-responsive
-        user interface components. Proficient in translating designs and
-        wireframes into high- quality code, and writing application interface
-        code via JavaScript and React JS workflows.
+        <span className="ml-10"> Frontend Developer with</span> 2 years of
+        expertise in Web Development, specializing in React.js Proficient in
+        JavaScript, ES6/ES7, HTML5, and CSS3 ensuring responsive and
+        cross-browser compatible interfaces. Accomplished in integrating
+        frontend applications with RESTful APIs, collaborating seamlessly in
+        Agile/Scrum environments and optimizing performance. Skilled in Version
+        Control (Git). Adept at troubleshooting, debugging, and solving complex
+        problems. Experienced in MERN (MongoDB, Express.js, React.js, Node.js)
+        stack technologies, contributing to the full spectrum of web
+        development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

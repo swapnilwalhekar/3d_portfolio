@@ -18,7 +18,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Swapnil</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-200`}>
-            I Develop Front-End Web Application.
+            Developing for the Web...!
           </p>
         </div>
       </div>

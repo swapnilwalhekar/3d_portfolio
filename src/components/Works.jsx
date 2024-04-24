@@ -72,22 +72,6 @@ const Works = () => {
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
-      <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione enim
-          distinctio corrupti beatae aperiam, possimus vitae facere vero fugit
-          fugiat suscipit. Labore vitae minus iste, nihil rem vel in maiores.
-          Sit ducimus eligendi esse excepturi cumque incidunt asperiores
-          recusandae, aut non doloremque molestias nemo, aliquam distinctio
-          voluptatibus iusto expedita nam nihil officia voluptate totam quas
-          unde enim dolorem dicta! Quibusdam? Fugit dolorum fuga doloremque
-          deleniti aperiam tempore, commodi distinctio.
-        </motion.p>
-      </div>
-
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />

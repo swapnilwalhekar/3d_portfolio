@@ -25,6 +25,9 @@ import crescendo from "./company/crescendo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ecomm from "./ecomm.png";
+import natours from "./natours.png";
+import currency from "./currency.png";
 
 export {
   backend,
@@ -49,6 +52,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  ecomm,
+  natours,
+  currency,
   java,
   sql,
 };

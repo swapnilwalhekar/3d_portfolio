@@ -20,6 +20,9 @@ import {
   threejs,
   java,
   sql,
+  ecomm,
+  natours,
+  currency,
 } from "../assets";
 
 export const navLinks = [
@@ -47,11 +50,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Redux",
+    title: "Node JS",
     icon: backend,
   },
   {
-    title: "React Three Fiber",
+    title: "Mongo DB",
     icon: creator,
   },
   {
@@ -63,11 +66,11 @@ const services = [
     icon: creator,
   },
   {
-    title: "Java",
+    title: "Redux",
     icon: web,
   },
   {
-    title: "SQL",
+    title: "React Three Fiber",
     icon: mobile,
   },
 ];
@@ -198,58 +201,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Eat & Split",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Eat and Split is a user-friendly web application developed with splitting bills and expenses among friends together. This intuitive application provides a hassle-free way to calculate each individual's share of the total bill.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "virtualdom",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/swapnilwalhekar/eat-n-split",
   },
   {
-    name: "Job IT",
+    name: "Drum Kit",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Drum Kit project is a responsive web app where users play virtual drums via mouse clicks or keyboard keys. It's made with HTML, CSS, and JavaScript, offering dynamic sound and serving as both an educational tool and portfolio piece.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/swapnilwalhekar/Drum-kit",
   },
   {
-    name: "Trip Guide",
+    name: "Library Management",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The LMS is a web application developed with ReactJS and Redux, designed to simplify the process of managing books in a library. This intuitive system allows users to add books to their cart and remove them selection process.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +261,71 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/swapnilwalhekar/Library-Management-System",
+  },
+  {
+    name: "E - Commerce ",
+    description:
+      "I've architected a dynamic e-commerce dashboard solution, harnessing the capabilities of the MERN (MongoDB, Express.js, React.js, Node.js) stack. React serves as the frontend framework, enhanced with custom CSS styling for a polished and intuitive user interface.",
+    tags: [
+      {
+        name: "frontend",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "backend",
+        color: "green-text-gradient",
+      },
+      {
+        name: "fullstack",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecomm,
+    source_code_link: "https://github.com/swapnilwalhekar/E-Commerce-Frontend",
+  },
+  {
+    name: "Natours",
+    description:
+      "I have crafted a robust API using Node.js, MongoDB, and advanced Mongoose in conjunction with Express for the Natours application. The development process involved sophisticated data modeling techniques, ensuring the efficiency and scalability of the system.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "backend",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: natours,
+    source_code_link: "https://github.com/swapnilwalhekar/natours-projetcs",
+  },
+  {
+    name: "Currency Convertor",
+    description:
+      "The Currency Converter is a simplify the process of converting currencies from one denomination to another. This versatile tool provides users with real-time exchange rate data and intuitive functionality, allowing for seamless currency conversions with accuracy and efficiency.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: currency,
+    source_code_link: "https://github.com/swapnilwalhekar/currency-convertor",
   },
 ];
 
