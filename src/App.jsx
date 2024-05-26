@@ -7,6 +7,7 @@ import Tech from "./components/Tech";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
 import Stars from "./components/canvas/Stars";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Contact />
             <Stars />
           </div>
+          <Footer />
         </div>
       </BrowserRouter>
     </>
