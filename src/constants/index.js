@@ -35,6 +35,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -128,26 +132,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Web Developer",
-    company_name: "Trinesis Technologies Pvt. Ltd.",
-    icon: trinesis,
-    iconBg: "#E6DEDD",
-    date: "June 2022 - Feb 2023",
-    pointTitle: [
-      "Frontend Development",
-      "Performance Optimization",
-      "Cross-Platform Compatibility",
-      "Team Collaboration",
-    ],
-
-    points: [
-      "Developed dynamic and responsive frontend applications using React JS.",
-      "Optimized website performance through efficient coding practices, code splitting, lazy loading, and other performance tuning techniques.",
-      "Ensured seamless functionality and appearance across multiple platforms and devices, including desktop, mobile, and tablets.",
-      "Collaborated effectively with cross-functional teams including designers, backend developers, and project managers to deliver high-quality solutions.",
-    ],
-  },
-  {
     title: "Frontend Developer",
     company_name: "Crescendo Worldwide Pvt. Ltd.",
     icon: crescendo,
@@ -168,6 +152,26 @@ const experiences = [
       "Implementing responsive web designs, ensuring optimal performance across various devices and screen sizes.",
       "Contributing to the development of new features and improvements in line with project requirements and deadlines.",
       "Integrating and utilizing React Three Fiber for 3D graphics and visualizations within React applications.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Trinesis Technologies Pvt. Ltd.",
+    icon: trinesis,
+    iconBg: "#E6DEDD",
+    date: "June 2022 - Feb 2023",
+    pointTitle: [
+      "Frontend Development",
+      "Performance Optimization",
+      "Cross-Platform Compatibility",
+      "Team Collaboration",
+    ],
+
+    points: [
+      "Developed dynamic and responsive frontend applications using React JS.",
+      "Optimized website performance through efficient coding practices, code splitting, lazy loading, and other performance tuning techniques.",
+      "Ensured seamless functionality and appearance across multiple platforms and devices, including desktop, mobile, and tablets.",
+      "Collaborated effectively with cross-functional teams including designers, backend developers, and project managers to deliver high-quality solutions.",
     ],
   },
 ];

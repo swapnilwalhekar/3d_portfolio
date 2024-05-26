@@ -20,7 +20,7 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-5 rouded-2xl sm:w-[330px] w-full"
+        className="bg-tertiary p-5 rouded-2xl sm:w-[300px] md:w-[310px] lg:w-[330px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -81,4 +81,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
