@@ -14,7 +14,9 @@ import {
   git,
   trinesis,
   crescendo,
+  vmedulife,
   carrent,
+  youtubeCloneImage,
   jobit,
   tripguide,
   threejs,
@@ -132,18 +134,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
-    company_name: "Crescendo Worldwide Pvt. Ltd.",
-    icon: crescendo,
+    title: "Software Engineer",
+    company_name: "vmedulife Software Pvt. Ltd.",
+    icon: vmedulife,
     iconBg: "#E6DEDD",
-    date: "March 2023 - Present",
+    date: "June 2024 - Present",
     pointTitle: [
       "Collaborative ReactJS Development",
       "Reusable Component Development",
       "State Management Expertise",
       "Responsive Web Design Implementation",
       "Feature Development and Enhancement",
-      "React Three Fiber Integration",
     ],
     points: [
       "Collaborating with the development team to create captivating user interfaces using ReactJS, HTML, CSS, and JavaScript.",
@@ -151,7 +152,31 @@ const experiences = [
       "Utilizing React Hooks for state management, resulting in a seamless user experience.",
       "Implementing responsive web designs, ensuring optimal performance across various devices and screen sizes.",
       "Contributing to the development of new features and improvements in line with project requirements and deadlines.",
-      "Integrating and utilizing React Three Fiber for 3D graphics and visualizations within React applications.",
+    ],
+  },
+  {
+    title: "MERN Stack Developer",
+    company_name: "Crescendo Worldwide Pvt. Ltd.",
+    icon: crescendo,
+    iconBg: "#E6DEDD",
+    date: "March 2023 - June 2024",
+    pointTitle: [
+      "Full-Stack MERN Development",
+      "API Development with Node.js",
+      "MongoDB Database Management",
+      "State Management with Redux",
+      "Responsive UI Design",
+      "Backend Integration",
+      "3D Visualizations with React Three Fiber",
+    ],
+    points: [
+      "Built full-stack MERN applications with seamless frontend-backend integration.",
+      "Developed RESTful APIs using Node.js and Express.",
+      "Managed databases and performed CRUD operations with MongoDB.",
+      "Used Redux and React Hooks for effective state management.",
+      "Created responsive and optimized UIs with ReactJS, HTML, and CSS.",
+      "Integrated backend services, enabling smooth data flow.",
+      "Implemented 3D visualizations using React Three Fiber in React apps.",
     ],
   },
   {
@@ -166,7 +191,6 @@ const experiences = [
       "Cross-Platform Compatibility",
       "Team Collaboration",
     ],
-
     points: [
       "Developed dynamic and responsive frontend applications using React JS.",
       "Optimized website performance through efficient coding practices, code splitting, lazy loading, and other performance tuning techniques.",
@@ -204,6 +228,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "YouTube Clone",
+    description:
+      "YouTube Clone is a web application that mimics the core functionalities of YouTube. It allows users to search for videos, view video content, and explore video categories, offering a seamless browsing experience.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: youtubeCloneImage,
+    source_code_link: "https://youtube-clone-by-sw.netlify.app/",
+  },
   {
     name: "Eat & Split",
     description:

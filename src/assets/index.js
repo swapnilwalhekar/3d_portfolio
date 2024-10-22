@@ -21,7 +21,9 @@ import java from "./tech/java.png";
 
 import trinesis from "./company/trinesis.png";
 import crescendo from "./company/crescendo.png";
+import vmedulife from "./company/vmedulife.png";
 
+import youtubeCloneImage from "./youtubeCloneImage.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -49,7 +51,9 @@ export {
   threejs,
   trinesis,
   crescendo,
+  vmedulife,
   carrent,
+  youtubeCloneImage,
   jobit,
   tripguide,
   ecomm,
