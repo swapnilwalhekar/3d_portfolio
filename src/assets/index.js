@@ -18,10 +18,16 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import sql from "./tech/sql.svg";
 import java from "./tech/java.png";
+import aws from "./tech/aws.svg";
+import docker from "./tech/docker.svg";
+import fhir from "./tech/fhir.svg";
+import hl7 from "./tech/hl7.svg";
+import healthcare from "./tech/healthcare.svg";
 
 import trinesis from "./company/trinesis.png";
 import crescendo from "./company/crescendo.png";
 import vmedulife from "./company/vmedulife.png";
+import nirmitee from "./company/nirmitee.png";
 
 import youtubeCloneImage from "./youtubeCloneImage.png";
 import carrent from "./carrent.png";
@@ -52,6 +58,7 @@ export {
   trinesis,
   crescendo,
   vmedulife,
+  nirmitee,
   carrent,
   youtubeCloneImage,
   jobit,
@@ -61,4 +68,9 @@ export {
   currency,
   java,
   sql,
+  aws,
+  docker,
+  fhir,
+  hl7,
+  healthcare,
 };

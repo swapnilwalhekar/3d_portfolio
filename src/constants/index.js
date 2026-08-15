@@ -15,6 +15,7 @@ import {
   trinesis,
   crescendo,
   vmedulife,
+  nirmitee,
   carrent,
   youtubeCloneImage,
   jobit,
@@ -25,6 +26,11 @@ import {
   ecomm,
   natours,
   currency,
+  aws,
+  docker,
+  fhir,
+  hl7,
+  healthcare,
 } from "../assets";
 
 export const navLinks = [
@@ -130,15 +136,58 @@ const technologies = [
     name: "Git",
     icon: git,
   },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "FHIR",
+    icon: fhir,
+  },
+  {
+    name: "HL7",
+    icon: hl7,
+  },
+  {
+    name: "Healthcare",
+    icon: healthcare,
+  },
 ];
 
 const experiences = [
+  {
+    title: "Software Engineer - 2",
+    company_name: "Nirmitee.io",
+    icon: nirmitee,
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - Present",
+    pointTitle: [
+      "Full Stack Healthcare Development",
+      "FHIR & HL7 Interoperability",
+      "Cloud Infrastructure on AWS",
+      "Containerization with Docker",
+      "API Design and Backend Engineering",
+      "Code Quality and Collaboration",
+    ],
+    points: [
+      "Building end-to-end healthcare products with React on the frontend and Node.js services on the backend, covering clinical workflows from intake to reporting.",
+      "Working with HL7 FHIR resources and HL7 v2 messages to exchange patient data reliably between EHRs and third-party healthcare systems.",
+      "Deploying and operating application services on AWS, managing environments, storage, and monitoring for production workloads.",
+      "Containerizing services with Docker so local, staging, and production environments stay consistent and reproducible.",
+      "Designing secure REST APIs with authentication, validation, and role-based access aligned to healthcare data privacy requirements.",
+      "Reviewing pull requests, maintaining coding standards, and collaborating with product and QA teams in an Agile delivery cycle.",
+    ],
+  },
   {
     title: "Software Engineer",
     company_name: "vmedulife Software Pvt. Ltd.",
     icon: vmedulife,
     iconBg: "#E6DEDD",
-    date: "June 2024 - Present",
+    date: "June 2024 - Oct 2024",
     pointTitle: [
       "Collaborative ReactJS Development",
       "Reusable Component Development",
@@ -147,11 +196,11 @@ const experiences = [
       "Feature Development and Enhancement",
     ],
     points: [
-      "Collaborating with the development team to create captivating user interfaces using ReactJS, HTML, CSS, and JavaScript.",
-      "Developing reusable and modular components to enhance the overall efficiency and maintainability of the codebase.",
-      "Utilizing React Hooks for state management, resulting in a seamless user experience.",
-      "Implementing responsive web designs, ensuring optimal performance across various devices and screen sizes.",
-      "Contributing to the development of new features and improvements in line with project requirements and deadlines.",
+      "Collaborated with the development team to create captivating user interfaces using ReactJS, HTML, CSS, and JavaScript.",
+      "Developed reusable and modular components to enhance the overall efficiency and maintainability of the codebase.",
+      "Utilized React Hooks for state management, resulting in a seamless user experience.",
+      "Implemented responsive web designs, ensuring optimal performance across various devices and screen sizes.",
+      "Contributed to the development of new features and improvements in line with project requirements and deadlines.",
     ],
   },
   {

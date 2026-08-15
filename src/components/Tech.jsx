@@ -1,11 +1,15 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { technologies } from "../constants";
 import SectionWrapper from "../hoc/sectionWrapper";
-import BallCanvas from "./canvas/Ball";
+import { BallGridCanvas, CELL } from "./canvas/Ball";
+
+const MAX_COLUMNS = 6;
 
 const Tech = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [columns, setColumns] = useState(MAX_COLUMNS);
+  const wrapRef = useRef(null);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width:500px)");
@@ -20,19 +24,33 @@ const Tech = () => {
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
-  });
+  }, []);
+
+  // Columns come from the measured width so the 3D grid wraps like the old
+  // flex layout did.
+  useEffect(() => {
+    const el = wrapRef.current;
+    if (!el) return;
+    const measure = () => {
+      const fit = Math.floor(el.clientWidth / CELL);
+      setColumns(Math.max(2, Math.min(MAX_COLUMNS, fit)));
+    };
+    measure();
+    if (typeof ResizeObserver === "undefined") return;
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [isMobile]);
+
+  const rows = Math.ceil(technologies.length / columns);
 
   return (
     <>
       {!isMobile && (
-        <div className="flex flex-row flex-wrap justify-center gap-10">
-          {technologies.map((technology, index) => {
-            return (
-              <div key={index} className="w-28 h-28">
-                <BallCanvas icon={technology.icon} />
-              </div>
-            );
-          })}
+        <div ref={wrapRef} className="w-full">
+          <div style={{ height: rows * CELL + 24 }}>
+            <BallGridCanvas items={technologies} columns={columns} />
+          </div>
         </div>
       )}
     </>

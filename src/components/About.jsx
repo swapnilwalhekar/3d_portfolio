@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -41,16 +41,18 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="">
-        <span className="ml-10"> Frontend Developer with</span> 2 years of
-        expertise in Web Development, specializing in React.js Proficient in
-        JavaScript, ES6/ES7, HTML5, and CSS3 ensuring responsive and
-        cross-browser compatible interfaces. Accomplished in integrating
-        frontend applications with RESTful APIs, collaborating seamlessly in
-        Agile/Scrum environments and optimizing performance. Skilled in Version
-        Control (Git). Adept at troubleshooting, debugging, and solving complex
-        problems. Experienced in MERN (MongoDB, Express.js, React.js, Node.js)
-        stack technologies, contributing to the full spectrum of web
-        development.
+        <span className="ml-10"> Software Engineer - 2 with</span> 4 years of
+        expertise in Full Stack Web Development, specializing in React.js and
+        Node.js. Proficient in JavaScript, ES6/ES7, HTML5, and CSS3 ensuring
+        responsive and cross-browser compatible interfaces. Currently building
+        healthcare products, working with HL7 and FHIR standards for
+        interoperable patient data exchange, and deploying containerized
+        services with Docker on AWS. Accomplished in integrating applications
+        with RESTful APIs, collaborating seamlessly in Agile/Scrum environments
+        and optimizing performance. Skilled in Version Control (Git). Adept at
+        troubleshooting, debugging, and solving complex problems. Experienced in
+        MERN (MongoDB, Express.js, React.js, Node.js) stack technologies,
+        contributing to the full spectrum of web development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

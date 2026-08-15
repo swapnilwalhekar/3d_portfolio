@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <path d="M128 22c7 32 28 47 41 66 11 16 15 32 15 47 0 32-25 57-56 57s-56-25-56-57c0-17 7-32 17-45 2 11 9 17 15 19-5-28 9-60 24-87z" fill="#E4572E"/>
+  <path d="M128 96c5 19 23 28 23 49 0 17-10 30-23 30s-23-13-23-30c0-13 8-19 13-28 2 7 6 11 10 13-2-12 0-23 0-34z" fill="#FFB400"/>
+  <text x="128" y="238" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700" fill="#A32B12">FHIR</text>
+</svg>
